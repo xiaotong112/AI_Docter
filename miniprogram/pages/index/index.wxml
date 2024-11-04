@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <!-- 轮播图部分 -->
+    <view class="swiper-section">
+      <swiper class="swiper" indicator-dots autoplay circular>
+        <swiper-item>
+          <image src="/assets/banner1.jpg" mode="widthFix" class="banner-image"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/assets/banner2.png" mode="widthFix" class="banner-image"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/assets/banner3.png" mode="widthFix" class="banner-image"/>
+        </swiper-item>
+      </swiper>
+    </view>
+
+    <!-- 功能导航区 -->
+    <view class="nav-grid">
+      <!-- 第一排 -->
+      <view class="grid-item">
+        <van-icon name="records" size="28px" color="#1989fa"/>
+        <text>健康档案</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="chart-trending-o" size="28px" color="#1989fa"/>
+        <text>评估报告</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="shop-o" size="28px" color="#1989fa"/>
+        <text>饮食管理</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="flag-o" size="28px" color="#1989fa"/>
+        <text>运动计划</text>
+      </view>
+      <!-- 第二排 -->
+      <view class="grid-item">
+        <van-icon name="clock-o" size="28px" color="#1989fa"/>
+        <text>睡眠检测</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="chart-trending-o" size="28px" color="#1989fa"/>
+        <text>智能分析</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="bell" size="28px" color="#1989fa"/>
+        <text>用药提醒</text>
+      </view>
+      <view class="grid-item">
+        <van-icon name="apps-o" size="28px" color="#1989fa"/>
+        <text>更多</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

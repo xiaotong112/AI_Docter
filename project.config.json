@@ -1,0 +1,38 @@
+{
+	"compileType": "miniprogram",
+	"miniprogramRoot": "miniprogram/",
+	"libVersion": "2.27.3",
+	"packOptions": {
+		"ignore": [],
+		"include": []
+	},
+	"setting": {
+		"packNpmManually": true,
+		"packNpmRelationList": [
+			{
+				"packageJsonPath": "./package.json",
+				"miniprogramNpmDistDir": "./miniprogram"
+			}
+		],
+		"coverView": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"enhance": true,
+		"showShadowRootInWxmlPanel": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"editorSetting": {
+		"tabIndent": "auto",
+		"tabSize": 2
+	},
+	"appid": "wx75e65586f61ee1a8",
+	"projectname": "AI_Doctor",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
